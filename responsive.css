@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 574px) { 
+
+    h2{
+        font-size: 40px;
+    }
+
+    .container-item{
+        padding: 1rem 0.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {  
+
+     h2{ 
+         font-size: 30px;
+         color: white;
+         font-weight: bolder;
+     } 
+     
+     .countdown{
+         
+         width: auto;
+     }
+
+     .container-day{
+         font-size: 12px;
+     }
+     .container-Hour{
+         font-size: 12px;
+     }
+     .container-minute{
+         font-size: 12px;
+     }
+     .container-second{
+         font-size: 12px;
+     }
+     .image{
+         width: 300px;
+     }
+     
+     .container-item{
+        padding: 1rem 10px;
+      
+    }
+}

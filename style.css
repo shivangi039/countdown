@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+h2{
+    font-size: 3rem;
+    color: rgb(255, 251, 251);
+    z-index: 2;
+    position: relative;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.coming-soon{
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: url('./countdown-bg.jpg');
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.coming-soon::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,0.4);
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 3.5rem 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.day,
+.hour,
+.minute,
+.second {
+font-size: 1.5rem;
+
+}
+.container-item{
+    background: rgb(245, 245, 245,0.8); 
+    padding: 2rem;
+    flex: 0.25;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.container-item:nth-child(1){
+    border-bottom: 10px solid rgb(180, 13, 180);
+}
+
+.container-item:nth-child(2){
+    border-bottom: 10px solid rgb(13, 180, 83);
+}
+
+.container-item:nth-child(3){
+    border-bottom: 10px solid rgb(13, 133, 180);
+}
+
+.container-item:nth-child(4){
+    border-bottom: 10px solid rgb(191, 202, 39);
+}
+
+.container-item:not(:last-child){
+    margin-right: 1.5rem;
+}
+.image img{
+    width: 100%;
+}
+
+.image{
+    width: 400px;
+    height: auto;
+}
